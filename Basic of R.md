@@ -12,7 +12,6 @@ five basic objects
 **列表list 可以包含多种对象**
 
 ### Attributes
-
 R objects can have attributes  
 - names，dimanames
 - dimensions
@@ -20,5 +19,19 @@ R objects can have attributes
 - length
 - metadata
 - etc
-
+  
 **使用attributes()创建属性**
+
+### Vectors
+c() function to create vectors of objects
+```r
+x<-(0.5,0.6)
+```
+vector() function to create vectors of objects too
+```r
+>x<-vector("numeric",length=10)
+>x
+ [1]0000000000
+```
+
+### List
