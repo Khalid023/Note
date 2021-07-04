@@ -126,7 +126,9 @@ y   10   11   12
 ```
 
 ### Factors  
-factor is a special type of vector, which is used to create, to represent categorical data. 
+
+factor is a special type of vector, which is used to create, to represent categorical data.
+
 ```r {.line-numbers}
 > x<-factor(c("yes","yes","no","yes","no"))
 > x
@@ -139,23 +141,28 @@ x
 ```
 
 ### Missing Values
+
 Missing values in R are denoted by either NA or NAN which we talked about before. NAN is used for undefined mathematical operations. And NA is pretty much used for everything else.
+
 ```r
 is.na() ##test objects if they are NA
 is.nan() ##test for NaN
 ```
 
 ### Data Frames  
+
 data frames are used to store tabular data.  
 every element has the same length  
 every element can store different classes  
 
-**a special sttribute**
+**a special attributes**
+
 ```r
 row.names
 ```
 
 **generate a data frame**
+
 ```r {.line-numbers}
 > x<-data.frame(foo=1:4,bar=c(T,T,F,F))
 > x
@@ -171,7 +178,9 @@ row.names
 ```
 
 ### Names
-R objects can also have names. This can be very useful for writing readable code and self describing objects. 
+
+R objects can also have names. This can be very useful for writing readable code and self describing objects.
+
 ```r{.line-numbers}
 > x<- 1:3
 > names(x)
